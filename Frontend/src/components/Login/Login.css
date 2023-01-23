@@ -1,11 +1,14 @@
-.Signin-Signup{
-background-color: aqua;
+.container{
+background-color: rgb(78, 78, 78);
 width: 50em;
 height: 30em;
 position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-align: center;
+  
+
 }
 
 input{
@@ -13,22 +16,58 @@ width: 20em ;
 height: 3em;
 text-align: center;
 display: flex;
-
-
-}
-
-button{
-display: block;
-width: 10em;
-height: 3em;
-background-color: rgb(0, 255, 47);
-
-}
-button:hover {
-    background-color: #16a532
-}
-
-.container{
+text-align: center;
+margin-bottom: 20px;
 text-align: center;
 
 }
+
+
+
+
+button:hover {
+    background-color: #16a532
+    
+}
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Koulen&family=Lato&family=Nunito&family=Playfair+Display:ital@1&family=Prata&family=Raleway:ital,wght@1,100&family=Roboto&family=Roboto+Condensed&family=Teko&display=swap');
+
+button{
+display: block;
+font-family: Roboto, sans-serif;
+font-weight: 100;
+font-size: 14px;
+color: #fff;
+background-color: #0066CC;
+padding: 10px 35px;
+border: solid #0066cc 2px;
+box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+border-radius: 0px;
+
+
+
+cursor: pointer;
+
+}
+
+button:hover{
+
+transition : 672ms;
+padding: 10px 43px;
+transform : translateY(-0px);
+background-color: #fff;
+color: #0066cc;
+border: solid 2px #0066cc;
+}
+
+.btn-1{
+margin-bottom: 30px;
+
+}
+
+  

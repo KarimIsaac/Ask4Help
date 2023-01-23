@@ -1,7 +1,12 @@
-.footer {
-  position:absolute;
-   bottom:0;
-   width:100%;
-   height:60px;   
-   background:#6cf;
-  }
+.footer{
+  background: linear-gradient(to right,  #000000 0%,#787878 100%);
+    
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  color: azure;
+}
+
+

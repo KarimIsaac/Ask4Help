@@ -1,6 +1,5 @@
-
 import './Login.css';
-import {  getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut   } from "firebase/auth";
+import {  getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword   } from "firebase/auth";
 import { useState } from 'react';
 import app from './firebase-config';
 import {useNavigate} from "react-router-dom"
@@ -19,7 +18,7 @@ function Login () {
       // Signed in 
       const user = userCredential.user;
       console.log(user);
-      navigate("./")
+      window.location.pathname = "/createpost"
       alert("succes signIn")
     
     })
@@ -47,11 +46,7 @@ const signUp = () => {
 }
 
 
-signOut(auth).then(() => {
-  // Sign-out successful.
-}).catch((error) => {
-  // An error happened.
-});
+
 
   return (
     <div className='Sign-Google'>

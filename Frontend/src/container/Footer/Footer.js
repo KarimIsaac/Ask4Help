@@ -3,15 +3,29 @@ import React from "react";
 import './Footer.css';
 function Footer (){
 return(
-<div className="footer__conatiner">
-    <div className="footer">
-    <h1>This is Footer</h1>
-    </div>  
-</div>
+
+<footer class="footer">
+   
+     
+       <div class="footer-col">
+         <h1>Ask4Help</h1>
+         <h2>About us </h2>
+         <ul>
+          <li></li>
+         </ul>
+       </div>
+       
+       
+
+       <div class="follow-us">
+         <h1>follow us</h1>
+       </div>
+     
+    
+</footer>
+
 
 )
-
-
 }
 
 export default Footer;

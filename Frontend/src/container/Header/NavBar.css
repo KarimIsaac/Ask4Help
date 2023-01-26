@@ -2,7 +2,7 @@ nav {
   margin: 0;
   width: 100%;
   height: 80px;
-  background-color: rgb(255, 0, 0);
+  background-image: url("img.jpg");
   display: flex;
   justify-content: center;
   align-items: center;
@@ -43,3 +43,4 @@ position: absolute;
 
   background-color: rgb(31, 2, 2);
 }
+

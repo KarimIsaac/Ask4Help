@@ -1,18 +1,19 @@
 
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
-
+import { getFirestore } from "firebase/firestore";
 const firebaseConfig = {
-  apiKey: "AIzaSyDp7bIoaicXRd9SnxtgEn0EtT41PG1D4vs",
-  authDomain: "ask4help-ca30d.firebaseapp.com",
-  projectId: "ask4help-ca30d",
-  storageBucket: "ask4help-ca30d.appspot.com",
-  messagingSenderId: "36356695492",
-  appId: "1:36356695492:web:8bc1c2ed4aaf8acc773091",
-  measurementId: "G-W4WN03913J"
+  apiKey: "AIzaSyABnGistRcB7JJs2FLbCdE0SP1D6HZtQg8",
+  authDomain: "ask4help-75501.firebaseapp.com",
+  projectId: "ask4help-75501",
+  storageBucket: "ask4help-75501.appspot.com",
+  messagingSenderId: "337651113956",
+  appId: "1:337651113956:web:a6ab1a6f69b72a7e6571f1",
+  measurementId: "G-QF4F1ZVHSW"
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
 export default app;
+export const db = getFirestore(app);

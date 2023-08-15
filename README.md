@@ -1,5 +1,5 @@
 # Ask4Help
-# This repo is for the examensarbete course under 
+# Examensarbete
 # utbildningen Systemsutvecklare i Java och JavaScript
 # vid Lernia Utbildning AB
 # Contributors:
